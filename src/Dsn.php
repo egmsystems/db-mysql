@@ -28,7 +28,7 @@ final class Dsn implements Stringable
         public readonly string $driver = 'mysql',
         public readonly string $host = '127.0.0.1',
         public readonly string $databaseName = '',
-        public readonly string $port = '3306',
+        public readonly int $port = 3306,
         public readonly array $options = [],
     ) {
     }
